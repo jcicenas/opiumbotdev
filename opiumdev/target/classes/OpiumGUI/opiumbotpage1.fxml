@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4E3275;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.opiumbotpage1controller">
+   <children>
+      <Label alignment="CENTER" blendMode="SRC_ATOP" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: white;" text="OpiumBot" textFill="#4e3275">
+         <font>
+            <Font name="Impact" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="242.0" layoutY="88.0" text="Welcome!" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="215.0" layoutY="177.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="170.0" style="-fx-background-color: white;" text="Authenticate E*Trade" textFill="#4e3275">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="175.0" layoutY="339.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*OpiumBot usees openauth 2.0 for authentication." wrappingWidth="282.140625">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="50.0" fitWidth="41.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images__3__-_Copy-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

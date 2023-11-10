@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4E3275;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label alignment="CENTER" blendMode="SRC_ATOP" prefHeight="50.0" prefWidth="600.0" style="-fx-background-color: white;" text="OpiumBot" textFill="#4e3275">
+         <font>
+            <Font name="Impact" size="40.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="41.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images__3__-_Copy-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="14.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance:">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="206.0" layoutY="336.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="103.0" style="-fx-background-color: white;" text="Start" textFill="#4e3275">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <Button layoutX="323.0" layoutY="336.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="103.0" style="-fx-background-color: white;" text="End" textFill="#4e3275">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Button>
+      <LineChart layoutX="154.0" layoutY="73.0" prefHeight="255.0" prefWidth="309.0" style="-fx-background-color: white;">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <TextField layoutX="180.0" layoutY="137.0" prefHeight="69.0" prefWidth="280.0" promptText="Enter Stock Index E.X TLSA:" />
+      <TextField layoutX="180.0" layoutY="137.0" prefHeight="69.0" prefWidth="280.0" promptText="Enter Stock Index E.X TLSA:" text="Enter Amount to be traded with:" visible="false" />
+   </children>
+</Pane>
